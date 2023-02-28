@@ -23,7 +23,8 @@ header {
 
 .section1 h1 {
     font-size: 40px;
-    margin: 40px 0px 0px 580px;
+    margin: 40px 0px 0px 570px;
+    letter-spacing: 5px;
 }
 
 .section1 p {
@@ -73,6 +74,11 @@ video {
 
 h2 {
     margin: 30px 0px 0px 470px;
+    text-transform: uppercase;
+}
+
+h2 a{
+    color: #e50914;
 }
 
 footer {
