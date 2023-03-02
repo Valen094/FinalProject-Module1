@@ -1,21 +1,14 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-main {
-    margin: 0 auto;
-    width: 1900px;
-    height: 2000px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(/Img/pagecon.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
+html,
 body {
-    background-color: rgb(15, 15, 15);
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: black;
 }
 
 header {
@@ -37,31 +30,43 @@ h3 {
 
 
 label {
-    font-size: 25px;
+    font-size: 20px;
+    text-align: left;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    margin: 20px 0px 0px 50px;
+    margin: 20px 0px 134px 0px;
+    padding: 40px 60px 65px 50px;
     font-size: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 30px rgb(131, 131, 131);
+    border-radius: 20px;
 }
 
 form input {
-    margin: 10px 50px 20px 0px;
-    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 25px 0px;
+    padding: 10px 275px 10px 10px;
     border-radius: 20px;
     border: 1px solid rgb(214, 214, 214);
+}
 
+.inputandlabel {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: stretch;
 }
 
 .form {
-    box-shadow: 0 0 50px rgba(100, 98, 98, 0.34);
-    padding: 10px 0px 50px 0px;
-    margin: 0px 560px 0px 560px;
-    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px 0px 0px;
     border-radius: 20px;
 }
+
 
 .navigation_bar {
     background-color: black;
@@ -73,7 +78,7 @@ form input {
 .navigation_bar a {
     text-decoration: none;
     margin: 15px 0px 0px 0px;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     font-weight: bold;
 }
@@ -82,16 +87,28 @@ form input {
     text-decoration: underline;
 }
 
+.block {
+    margin: 0px 36px 44px 0px;
+}
+
+
+.submit input {
+    margin: 20px 24px 0px 116px;
+    padding: 10px 92px 10px 92px;
+    border: 1px solid rgb(122, 122, 122);
+    background-color: white;
+    align-items: center;
+}
+
+.content {
+    max-width: 700px;
+    padding: 0px 20px 0px 20px;
+}
+
 #blog {
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 300px;
     height: 50px;
-}
-
-#submit {
-    margin: 20px 200px 0px 200px;
-    border: 1px solid rgb(122, 122, 122);
 }
 
 footer {
